@@ -1,0 +1,28 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<center>
+      <div>
+      <form action="register" method="get">
+            <label>User Id<br><input type="text" name="id"></label><br><br>
+       <label>User Name<br><input type="text" name="name"></label><br><br>
+      <label> EmailId <br> <input type="text" name="email"></label><br><br>
+      <label>Mobile <br><input type="number" name="mobile"></label><br><br>
+      <label>Gender <br></label>
+      <label><input type="radio" value="male" name="gender">Male</label>
+      <label><input type="radio" value="female" name="gender">Female</label>
+      <label><input type="radio" value="others" name="gender">Others</label><br><br>
+      <label>Address<br> <input type="text" name="address"></label><br><br>
+      <label>password <br><input type="password" name="pass"></label><br><br>
+      <input type="submit"  >
+      </form>
+      </div>
+      </center>
+</body>
+</html>
